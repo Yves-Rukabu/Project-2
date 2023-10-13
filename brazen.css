@@ -1,0 +1,191 @@
+.header{
+    background-image: url(https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between; /* Spacing between logo and nav-menu */
+    align-items: center; /* Align items to the top */
+    padding: 10px ; /* Add padding to separate content from the line */
+}
+.nav-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+.nav-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+.nav-menu a {
+    text-decoration: none;
+    color: #fff; /* Set link text color to contrast with the background */
+    font-weight: bold;
+}
+.line{
+    width: 100%; /* Make the line span the full width of the header */
+    border: 1px solid #000; /* Add styling for the line, e.g., color and thickness */
+    margin: 10px 1px; /* Adjust the spacing between the line and the content */
+    
+}
+.title{
+    color: #FFF;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+.title a{
+    text-decoration: none;
+    color: #FFF;
+}
+.container{
+    display: flex;
+}
+.main{
+    margin: 80px;
+}
+.first-header{
+    color: #CD2A3A;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.line2{
+    float: left;
+    width: 34px;
+    position: absolute;
+    margin-top: 0;
+    border-color: #000;
+}
+.second-header{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
+}
+.poster{
+    display: inline;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 5px;
+}
+.date{
+    display: inline;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 5px;
+}
+.line3{
+    display: inline;
+}
+.picture{
+    width: 100%;
+    height: 502px;
+    padding: 20px;
+    margin-right: 20px;
+}
+p{
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.scontent{
+    margin-right: 200px;
+}
+.specialp{
+    display: inline;
+    color: #CD2A3A;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 150%;
+    padding-left: 10px;
+    text-wrap: 50px;
+    padding-right: 500px;
+    font-size: medium;
+}
+.line4{
+    display: inline;
+    background-color: #CD2A3A;
+    border-color: #CD2A3A;
+    padding-bottom: 50px;
+}
+.sideline{
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+    
+}
+.top-side{
+    margin-top: 80px;
+}
+.third-header{
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+.line5{
+    float: left;
+    position: absolute;
+    width: 64px;
+    margin-top: 0;
+    border-color: #000;
+}
+.posts li{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.posts li a{
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    padding-left: 5px;
+}
+.posts li p{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+.sideline2{
+    margin-top: 80px;
+}
+.line6{
+    float: left;
+    position: absolute;
+    width: 64px;
+    margin-top: 0;
+    border-color: #000;
+}
+.sideline2 ul{
+    margin-top: 30px;
+}
+.sideline2 ul li{
+    background-color: #8D5757;
+    border-radius: 8px;
+    padding: 10px;
+    margin:20px 20px;
+    list-style: none;
+}
+.sideline2 ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
