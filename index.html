@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <h2>Sneakers</h2>
+      <ul>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <li><a href="images/icon-cart.svg"></a></li>
+        <li><a href="images/image-avatar.png"></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="col-2">
+      <img src="images/image-product-1.jpg" alt="" class="main-img" id="productImg">
+      <div class="small-img-row">
+        <div class="small-img-col">
+          <img src="images/image-product-1-thumbnail.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/image-product-2-thumbnail.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/image-product-3-thumbnail.jpg" width="100%" class="small-img">
+        </div>
+        <div class="small-img-col">
+          <img src="images/image-product-4-thumbnail.jpg" width="100%" class="small-img">
+        </div>
+      </div>
+    </div>
+    <form id="productForm">
+      <div class="product">
+        <h2>Fall Limited Edition Sneakers</h2>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+        <p>
+          <span>$125.00</span>
+          <span class="discount">50%</span>
+          <span class="original-price">$250.00</span>
+        </p>
+        <button>Add to cart</button>
+      </div>
+    </form>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
